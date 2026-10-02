@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addTabIndex()">
+
+  <h1>My Interactive Photo Gallery</h1>
+
+  <div id="image">
+    Hover over or focus on an image below to display here.
+  </div>
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzrfag-6XiNSajrna0toPwGg1hL-BzAh1AH1qcpOMPqw&s=10"
+       alt="A cute orange and white cat"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRF4Efi90Y2iOZEwlK2J4cbFjppc4z6wa-TWNF5KVcw&s=10"
+       alt="A golden dog sitting outdoors"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_4uHZhTvPQs9E3VFDLA-mK5dRRdk4awtoSURTLUDw-A&s=10"
+       alt="A brown and white puppy"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXSFydm8v3CzrnHN-ao5QOmYOFR3S1UmwTC6TxoEoLA&s=10"
+       alt="A happy dog looking at the camera"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJK2HXmH-lEwPlS4WLjl2l6MhxOfxJqQXXZZNwx6_0w&s=10"
+       alt="A cat relaxing indoors"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <img class="preview"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQla3L-IEgt_SfP0Z7IBmnEqXuAltfJd6OSxkX968CPeA&s=10"
+       alt="A brown dog outdoors"
+       onmouseover="upDate(this)"
+       onmouseleave="unDo()"
+       onfocus="upDate(this)"
+       onblur="unDo()">
+
+  <script src="script.js"></script>
+</body>
+</html>
